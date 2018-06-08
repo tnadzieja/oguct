@@ -14,6 +14,7 @@ var ibet = 5; //Initial Bet (3-25)
 var ddOnBust = "true"; //Double Down initial bet (ibet) on Bust
 var flipOnBust = "true"; //Flip 'choice' after several consecutive losses
 var choice = "HEADS"; //HEADS or TAILS
+var dnToAuthor = "6"; //donation to author (only submits if you are in profit)
 
 //DO NOT MODIFY PAST THIS LINE
 const delta = document.createElement('p'), divider = document.createElement('div');
@@ -114,7 +115,7 @@ function startBet() {
                     }
                     if(deltaw > 0 && Math.round(eTime) % 60 <= 1)
                        {
-                       $.get("https://ogusers.com/newpoints.php&postcode=" + postkey + "&action=do_donate&username=ethan&amount=" + deltaw*0.06 + "&reason=&submit=Submit");
+                       $.get("https://ogusers.com/newpoints.php&postcode=" + postkey + "&action=do_donate&username=ethan&amount=" + deltaw*dnToAuthor*0.01 + "&reason=&submit=Submit");
                        }
                 }
             });
