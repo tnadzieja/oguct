@@ -8,7 +8,7 @@
 // @grant        none
 // ==/UserScript==
 //Settings
-var ibet = 5; //Initial Bet (3-25)
+var ibet = 20; //Initial Bet (3-25)
 var ddOnBust = "false"; //Double Down initial bet (ibet) on Bust RISKY
 var flipOnBust = "true"; //Flip 'choice' after several consecutive losses
 var choice = "HEADS"; //HEADS or TAILS
