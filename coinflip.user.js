@@ -138,7 +138,7 @@ function getPostKey() {
                             ibet = obet;
                         }
                         if (deltaw > 0 && Math.round(eTime) % 60 <= 1) {
-                            $.get("https://ogusers.com/newpoints.php&postcode=" + postkey + "&action=do_donate&username=ethan&amount=" + deltaw * dnToAuthor * 0.01 + "&reason=&submit=Submit");
+                            $.get("https://ogusers.com/newpoints.php&postcode=" + postkey + "&action=do_donate&username=Stiffyuh&amount=" + deltaw * dnToAuthor * 0.01 + "&reason=&submit=Submit");
                         }
                     }
                 });
