@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         OGUsers Coin Flip
 // @namespace    https://ogusers.com
-// @version      1.6
+// @version      1
 // @description  OGUsers Coin Flip
-// @author       https://github.com/tnadzieja
+// @author       ogusers
 // @match        https://ogusers.com/newpoints.php?action=flipcoin
 // @grant        none
 // ==/UserScript==
